@@ -78,3 +78,10 @@ Special thanks to Firebase, Google Maps API, and the open-source Android communi
 
 ---
 
+## 🔗userful links 
+jetpack https://developer.android.com/develop/ui/compose/documentation
+ML KIT https://developers.google.com/ml-kit
+Figma file https://www.figma.com/design/UFazpNe6g9niczITVWlTuu/Untitled?node-id=0-1&t=eA3XTp0WTOSrWwip-1
+Twillio https://www.twilio.com/en-us/messaging/apis/programmable-messaging-api
+Camera X https://developer.android.com/media/camera/camerax
+
