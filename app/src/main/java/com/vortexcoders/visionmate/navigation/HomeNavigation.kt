@@ -20,6 +20,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
@@ -31,7 +32,9 @@ import com.vortexcoders.visionmate.screens.SOS_Screen
 import com.vortexcoders.visionmate.screens.SettingScreen
 
 @Composable
-fun HomeNavigation() {
+fun HomeNavigation(
+    mainNavController: NavController
+) {
     val navController = rememberNavController()
 
     val currentBackStackEntry by navController.currentBackStackEntryAsState()
@@ -97,7 +100,7 @@ fun HomeNavigation() {
                 navController = navController, startDestination = Screens.HOME_SCREEN.name
             ){
                 composable(route = Screens.HOME_SCREEN.name) {
-                    HomeScreen()
+                    HomeScreen(mainNavController)
                 }
                 composable(route = Screens.SETTING_SCREEN.name) {
                     SettingScreen()

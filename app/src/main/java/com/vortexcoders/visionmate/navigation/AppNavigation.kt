@@ -22,7 +22,7 @@ fun  MainNavigation(){
         }
 
         composable(route = Screens.HOME_NAVIGATION.name) {
-            HomeNavigation()
+            HomeNavigation(navController)
         }
 
         composable(route = Screens.OUTSIDE_NAVIGATION_SCREEN.name) {
