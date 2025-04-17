@@ -1,0 +1,12 @@
+package com.vortexcoders.visionmate.model
+
+enum class Screens {
+    SPLASH_SCREEN,
+    HOME_SCREEN,
+    INSIDE_NAVIGATION_SCREEN,
+    OBJECT_DETECTION_SCREEN,
+    OUTSIDE_NAVIGATION_SCREEN,
+    SETTING_SCREEN,
+    SOS_SCREEN,
+    HOME_NAVIGATION
+}
